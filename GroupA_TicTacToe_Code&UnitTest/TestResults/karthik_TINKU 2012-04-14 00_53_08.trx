@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="88237bcd-26e2-48bb-aa2d-6147bc7ee519" name="karthik@TINKU 2012-04-14 00:53:08" runUser="TINKU\karthik" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9d9ad90f-45d8-4b5e-971c-2cfcb76f86ad">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="karthik_TINKU 2012-04-14 00_53_08">
+      <DeploymentItem filename="C:\Documents and Settings\karthik\Desktop\SE2 final design\design_last\GroupA_TicTacToe_Today_FF\GroupA_TicTacToe\bin\Debug\GroupA_TicTacToe.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-14T00:53:08.9218750-05:00" queuing="2012-04-14T00:53:08.9843750-05:00" start="2012-04-14T00:53:09.0000000-05:00" finish="2012-04-14T00:53:17.4375000-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ShowInstructionTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="b5975cca-4ea0-1de8-dc3c-80a1bc046cd5">
+      <Execution id="f377e3de-35b6-481d-8292-2dd97304325e" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tic_Tac_Toe_Forever_Test.GameViewTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShowInstructionTest" />
+    </UnitTest>
+    <UnitTest name="GameViewConstructorTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="acf14757-2e94-1174-a060-2307e62506fd">
+      <Execution id="7794bd9d-6845-42e5-9252-2c09e2cc2be9" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tic_Tac_Toe_Forever_Test.GameViewTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GameViewConstructorTest" />
+    </UnitTest>
+    <UnitTest name="ShowResultTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="6daf65b4-05cc-b22b-0762-65fbf9673796">
+      <Execution id="36055fce-43ec-4834-93bd-93aa1b2d796c" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tic_Tac_Toe_Forever_Test.GameViewTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShowResultTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6daf65b4-05cc-b22b-0762-65fbf9673796" executionId="36055fce-43ec-4834-93bd-93aa1b2d796c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="acf14757-2e94-1174-a060-2307e62506fd" executionId="7794bd9d-6845-42e5-9252-2c09e2cc2be9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5975cca-4ea0-1de8-dc3c-80a1bc046cd5" executionId="f377e3de-35b6-481d-8292-2dd97304325e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="36055fce-43ec-4834-93bd-93aa1b2d796c" testId="6daf65b4-05cc-b22b-0762-65fbf9673796" testName="ShowResultTest" computerName="TINKU" duration="00:00:07.9151040" startTime="2012-04-14T00:53:09.0156250-05:00" endTime="2012-04-14T00:53:17.3593750-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36055fce-43ec-4834-93bd-93aa1b2d796c">
+    </UnitTestResult>
+    <UnitTestResult executionId="7794bd9d-6845-42e5-9252-2c09e2cc2be9" testId="acf14757-2e94-1174-a060-2307e62506fd" testName="GameViewConstructorTest" computerName="TINKU" duration="00:00:00.0004084" startTime="2012-04-14T00:53:17.3593750-05:00" endTime="2012-04-14T00:53:17.3750000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7794bd9d-6845-42e5-9252-2c09e2cc2be9">
+    </UnitTestResult>
+    <UnitTestResult executionId="f377e3de-35b6-481d-8292-2dd97304325e" testId="b5975cca-4ea0-1de8-dc3c-80a1bc046cd5" testName="ShowInstructionTest" computerName="TINKU" duration="00:00:00.0022583" startTime="2012-04-14T00:53:17.3750000-05:00" endTime="2012-04-14T00:53:17.3906250-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f377e3de-35b6-481d-8292-2dd97304325e">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3612898f-a92b-48ec-8680-2989664ebfc3" name="karthik@TINKU 2012-04-14 01:01:53" runUser="TINKU\karthik" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="9d9ad90f-45d8-4b5e-971c-2cfcb76f86ad">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="karthik_TINKU 2012-04-14 01_01_53">
+      <DeploymentItem filename="C:\Documents and Settings\karthik\Desktop\SE2 final design\design_last\GroupA_TicTacToe_Today_FF\GroupA_TicTacToe\bin\Debug\GroupA_TicTacToe.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-14T01:01:53.2812500-05:00" queuing="2012-04-14T01:01:56.6406250-05:00" start="2012-04-14T01:01:56.8750000-05:00" finish="2012-04-14T01:02:26.5937500-05:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="30" executed="5" passed="4" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="25" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="TINKU" outcome="Error" timestamp="2012-04-14T01:02:26.5625000-05:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CalculateStepOneTest1" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="b745a59d-2445-677f-5ced-c5ad13e91482">
+      <Execution id="53d9a8c2-f99a-49f3-8373-fbd4586c9aa9" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ComputerGamesRUS.Game.Test1.ComputerMoveHandlerTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateStepOneTest1" />
+    </UnitTest>
+    <UnitTest name="CalculateStepTwoTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="724c9823-88d2-6bf0-4ae5-f63978fe9141">
+      <Execution id="9d6db801-875b-45bd-82a5-1878660e91d5" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ComputerGamesRUS.Game.Test1.ComputerMoveHandlerTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateStepTwoTest" />
+    </UnitTest>
+    <UnitTest name="SelectBestMoveTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="c388d02c-8193-cb8b-3690-847f35381077">
+      <Execution id="f08ed2c0-3930-4e54-b9c6-2d2b185f2c99" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ComputerGamesRUS.Game.Test1.ComputerMoveHandlerTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SelectBestMoveTest" />
+    </UnitTest>
+    <UnitTest name="StepTwoTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="1c2a7aa8-d386-c2d0-9766-9daf802d90ce">
+      <DeploymentItems>
+        <DeploymentItem filename="GroupA_TicTacToe.exe" />
+      </DeploymentItems>
+      <Execution id="c6f6872a-e72d-43ed-9cf6-e7c8513330ae" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ComputerGamesRUS.Game.Test1.ComputerMoveHandlerTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StepTwoTest" />
+    </UnitTest>
+    <UnitTest name="createInstanceTest1" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="536de9da-0066-a64b-878e-599932607ad3">
+      <Execution id="8a94066b-96bd-46bc-b148-4b4a6123ac26" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tic_Tac_Toe_Forever_Test.BoardTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="createInstanceTest1" />
+    </UnitTest>
+    <UnitTest name="StepThreeTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="79703a38-2e82-a172-0e42-aaa3e7932553">
+      <DeploymentItems>
+        <DeploymentItem filename="GroupA_TicTacToe.exe" />
+      </DeploymentItems>
+      <Execution id="e66f4fdd-b6e3-40d0-8c02-4fa2f8884cc4" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ComputerGamesRUS.Game.Test1.ComputerMoveHandlerTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StepThreeTest" />
+    </UnitTest>
+    <UnitTest name="CountCoinTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="9c0cb698-2881-3296-7c8a-debd20d6bb80">
+      <DeploymentItems>
+        <DeploymentItem filename="GroupA_TicTacToe.exe" />
+      </DeploymentItems>
+      <Execution id="4c61c265-f0e6-4d91-81ad-6ebfcb6fe4ec" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ComputerGamesRUS.Game.Test1.MoveHandlerTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CountCoinTest" />
+    </UnitTest>
+    <UnitTest name="ShowResultTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="6daf65b4-05cc-b22b-0762-65fbf9673796">
+      <Execution id="f784f3a6-3666-408c-bb30-f7f2d9e3646c" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tic_Tac_Toe_Forever_Test.GameViewTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShowResultTest" />
+    </UnitTest>
+    <UnitTest name="GetSymbolRectangleTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="51821d50-7630-a087-53a5-edde42335604">
+      <DeploymentItems>
+        <DeploymentItem filename="GroupA_TicTacToe.exe" />
+      </DeploymentItems>
+      <Execution id="a6e2ceb8-310b-4cc6-8ee2-624add3582eb" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tic_Tac_Toe_Forever_Test.BoardTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetSymbolRectangleTest" />
+    </UnitTest>
+    <UnitTest name="GameViewConstructorTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="acf14757-2e94-1174-a060-2307e62506fd">
+      <Execution id="fdc4eacd-93c9-4ce8-8724-5ae467363dad" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tic_Tac_Toe_Forever_Test.GameViewTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GameViewConstructorTest" />
+    </UnitTest>
+    <UnitTest name="MakeMoveTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="54d8eaf3-c56c-184e-26b5-15196a90c1a8">
+      <Execution id="18b00bc4-9552-4ac1-9050-27034eeed5dc" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ComputerGamesRUS.Game.Test1.ComputerMoveHandlerTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MakeMoveTest" />
+    </UnitTest>
+    <UnitTest name="CalculateStepThreeTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="2d11687b-1ea4-73dd-6e6b-e0329669a4d7">
+      <Execution id="723800de-5ed6-49b7-a64c-755b9ea6704a" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ComputerGamesRUS.Game.Test1.ComputerMoveHandlerTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateStepThreeTest" />
+    </UnitTest>
+    <UnitTest name="GetCellRectangleTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="883909f7-8fa2-cd70-a42d-9a76f83113b9">
+      <DeploymentItems>
+        <DeploymentItem filename="GroupA_TicTacToe.exe" />
+      </DeploymentItems>
+      <Execution id="dae567cd-2c00-4755-8db1-2ac01b38e3e3" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tic_Tac_Toe_Forever_Test.BoardTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCellRectangleTest" />
+    </UnitTest>
+    <UnitTest name="createInstanceTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="1c26784c-0ddc-a16d-f19b-71635342809d">
+      <Execution id="aa4b9dd6-91c1-4128-add6-3016035eb4fa" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tic_Tac_Toe_Forever_Test.BoardTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="createInstanceTest" />
+    </UnitTest>
+    <UnitTest name="GetSymbolTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="7b0e2e66-8df2-4a1a-265f-d4dedb3fc894">
+      <Execution id="dd69995c-4735-4c0f-ba00-0b75cc889893" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tic_Tac_Toe_Forever_Test.BoardTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetSymbolTest" />
+    </UnitTest>
+    <UnitTest name="CheckResizeRequiredTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="81e0d52c-2114-14fa-89f0-fbd51f644f03">
+      <Execution id="ff5f32d5-9648-41c5-88e3-620bfecaf909" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tic_Tac_Toe_Forever_Test.GameManagerTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckResizeRequiredTest" />
+    </UnitTest>
+    <UnitTest name="IsOutofBoundsTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="3813c055-0a11-519d-190b-213c39098af5">
+      <Execution id="43198a9e-6278-45a3-a915-a88ddef824ee" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tic_Tac_Toe_Forever_Test.BoardTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsOutofBoundsTest" />
+    </UnitTest>
+    <UnitTest name="ClearTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="30c1c89b-fac2-c77e-0b9b-67de1982205c">
+      <Execution id="9103dc34-96fa-4ba2-9c3c-38a6e5400e62" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tic_Tac_Toe_Forever_Test.BoardTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ClearTest" />
+    </UnitTest>
+    <UnitTest name="PutSymbolTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="7f6992cd-8434-1750-aa26-57ea7b9d67ea">
+      <Execution id="1e75e12a-24e8-49b3-93df-578e42bbba80" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tic_Tac_Toe_Forever_Test.BoardTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PutSymbolTest" />
+    </UnitTest>
+    <UnitTest name="setMementoTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="12e46c41-ca5e-7203-7d91-9ceaeb8372fa">
+      <Execution id="c2d8eebf-a104-4519-af3a-362cdd7628ea" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tic_Tac_Toe_Forever_Test.BoardTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="setMementoTest" />
+    </UnitTest>
+    <UnitTest name="CheckResultTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="024ac99d-0c07-622a-5934-0d5cfd6ece39">
+      <Execution id="77134d17-6fc7-4ec8-bc95-ac0dc021a4ed" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ComputerGamesRUS.Game.Test1.MoveHandlerTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CheckResultTest" />
+    </UnitTest>
+    <UnitTest name="CreatePointTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="60546481-3319-5dad-44b6-fd0b8b42e5c0">
+      <Execution id="f13c7fc3-201e-4259-9ec3-96c2fc71be01" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tic_Tac_Toe_Forever_Test.BoardTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreatePointTest" />
+    </UnitTest>
+    <UnitTest name="CalculateStepOneTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="7c18b437-1eaf-293e-0176-96a9653c693e">
+      <Execution id="2e5a7675-0f35-48df-b68b-78a4fb3f1a98" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ComputerGamesRUS.Game.Test1.ComputerMoveHandlerTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateStepOneTest" />
+    </UnitTest>
+    <UnitTest name="BoardConstructorTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="dbe66929-699e-e618-e12c-3721ef274ba0">
+      <DeploymentItems>
+        <DeploymentItem filename="GroupA_TicTacToe.exe" />
+      </DeploymentItems>
+      <Execution id="a1dde42e-6f95-494f-87eb-2efdb776e1c6" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tic_Tac_Toe_Forever_Test.BoardTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BoardConstructorTest" />
+    </UnitTest>
+    <UnitTest name="SymbolStoreTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="6ba15e95-f9ae-f088-948d-f72b9b631689">
+      <Execution id="7abff8e9-42bc-416f-a626-c6924ef5be72" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tic_Tac_Toe_Forever_Test.BoardTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SymbolStoreTest" />
+    </UnitTest>
+    <UnitTest name="GetUserSymbolTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="cd0d94ae-8314-52a4-757d-febb6a6a6313">
+      <Execution id="3420b9e3-87c4-4a2f-84d0-c65202eb0e38" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ComputerGamesRUS.Game.Test1.MoveHandlerTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetUserSymbolTest" />
+    </UnitTest>
+    <UnitTest name="StepOneTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="ad3ca581-932d-56e7-cd6a-26682ca3a236">
+      <Execution id="7872796a-9d67-4ce1-9bc4-9685d894d1be" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="ComputerGamesRUS.Game.Test1.ComputerMoveHandlerTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="StepOneTest" />
+    </UnitTest>
+    <UnitTest name="ShowInstructionTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="b5975cca-4ea0-1de8-dc3c-80a1bc046cd5">
+      <Execution id="da6bb3ea-4131-4196-ae02-ad815bcc0f06" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tic_Tac_Toe_Forever_Test.GameViewTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ShowInstructionTest" />
+    </UnitTest>
+    <UnitTest name="CreateMementoTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="d79c2ed6-2d87-2c3a-76fd-bad033a309d1">
+      <Execution id="e0941c32-a4ce-4a69-8685-c79c6bb5c7fa" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tic_Tac_Toe_Forever_Test.BoardTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateMementoTest" />
+    </UnitTest>
+    <UnitTest name="BoardSizeTest" storage="c:\documents and settings\karthik\desktop\se2 final design\design_last\groupa_tictactoe_today_ff\tic_tac_toe_forever_test\bin\debug\tic_tac_toe_forever_test.dll" id="66f2ebb5-d38a-d706-8eb7-c5bda61f50a6">
+      <Execution id="e2f24761-41f5-40a4-88ff-de43ea6d5d6e" />
+      <TestMethod codeBase="C:/Documents and Settings/karthik/Desktop/SE2 final design/design_last/GroupA_TicTacToe_Today_FF/Tic_Tac_Toe_Forever_Test/bin/Debug/Tic_Tac_Toe_Forever_Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tic_Tac_Toe_Forever_Test.BoardTest, Tic_Tac_Toe_Forever_Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BoardSizeTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="024ac99d-0c07-622a-5934-0d5cfd6ece39" executionId="77134d17-6fc7-4ec8-bc95-ac0dc021a4ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="12e46c41-ca5e-7203-7d91-9ceaeb8372fa" executionId="c2d8eebf-a104-4519-af3a-362cdd7628ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c26784c-0ddc-a16d-f19b-71635342809d" executionId="aa4b9dd6-91c1-4128-add6-3016035eb4fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1c2a7aa8-d386-c2d0-9766-9daf802d90ce" executionId="c6f6872a-e72d-43ed-9cf6-e7c8513330ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d11687b-1ea4-73dd-6e6b-e0329669a4d7" executionId="723800de-5ed6-49b7-a64c-755b9ea6704a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="30c1c89b-fac2-c77e-0b9b-67de1982205c" executionId="9103dc34-96fa-4ba2-9c3c-38a6e5400e62" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3813c055-0a11-519d-190b-213c39098af5" executionId="43198a9e-6278-45a3-a915-a88ddef824ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51821d50-7630-a087-53a5-edde42335604" executionId="a6e2ceb8-310b-4cc6-8ee2-624add3582eb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="536de9da-0066-a64b-878e-599932607ad3" executionId="8a94066b-96bd-46bc-b148-4b4a6123ac26" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="54d8eaf3-c56c-184e-26b5-15196a90c1a8" executionId="18b00bc4-9552-4ac1-9050-27034eeed5dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60546481-3319-5dad-44b6-fd0b8b42e5c0" executionId="f13c7fc3-201e-4259-9ec3-96c2fc71be01" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="66f2ebb5-d38a-d706-8eb7-c5bda61f50a6" executionId="e2f24761-41f5-40a4-88ff-de43ea6d5d6e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ba15e95-f9ae-f088-948d-f72b9b631689" executionId="7abff8e9-42bc-416f-a626-c6924ef5be72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6daf65b4-05cc-b22b-0762-65fbf9673796" executionId="f784f3a6-3666-408c-bb30-f7f2d9e3646c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="724c9823-88d2-6bf0-4ae5-f63978fe9141" executionId="9d6db801-875b-45bd-82a5-1878660e91d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="79703a38-2e82-a172-0e42-aaa3e7932553" executionId="e66f4fdd-b6e3-40d0-8c02-4fa2f8884cc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b0e2e66-8df2-4a1a-265f-d4dedb3fc894" executionId="dd69995c-4735-4c0f-ba00-0b75cc889893" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c18b437-1eaf-293e-0176-96a9653c693e" executionId="2e5a7675-0f35-48df-b68b-78a4fb3f1a98" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f6992cd-8434-1750-aa26-57ea7b9d67ea" executionId="1e75e12a-24e8-49b3-93df-578e42bbba80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="81e0d52c-2114-14fa-89f0-fbd51f644f03" executionId="ff5f32d5-9648-41c5-88e3-620bfecaf909" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="883909f7-8fa2-cd70-a42d-9a76f83113b9" executionId="dae567cd-2c00-4755-8db1-2ac01b38e3e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c0cb698-2881-3296-7c8a-debd20d6bb80" executionId="4c61c265-f0e6-4d91-81ad-6ebfcb6fe4ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="acf14757-2e94-1174-a060-2307e62506fd" executionId="fdc4eacd-93c9-4ce8-8724-5ae467363dad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad3ca581-932d-56e7-cd6a-26682ca3a236" executionId="7872796a-9d67-4ce1-9bc4-9685d894d1be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b5975cca-4ea0-1de8-dc3c-80a1bc046cd5" executionId="da6bb3ea-4131-4196-ae02-ad815bcc0f06" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b745a59d-2445-677f-5ced-c5ad13e91482" executionId="53d9a8c2-f99a-49f3-8373-fbd4586c9aa9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c388d02c-8193-cb8b-3690-847f35381077" executionId="f08ed2c0-3930-4e54-b9c6-2d2b185f2c99" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd0d94ae-8314-52a4-757d-febb6a6a6313" executionId="3420b9e3-87c4-4a2f-84d0-c65202eb0e38" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d79c2ed6-2d87-2c3a-76fd-bad033a309d1" executionId="e0941c32-a4ce-4a69-8685-c79c6bb5c7fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dbe66929-699e-e618-e12c-3721ef274ba0" executionId="a1dde42e-6f95-494f-87eb-2efdb776e1c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="77134d17-6fc7-4ec8-bc95-ac0dc021a4ed" testId="024ac99d-0c07-622a-5934-0d5cfd6ece39" testName="CheckResultTest" computerName="TINKU" duration="00:00:00.2445671" startTime="2012-04-14T01:01:57.0000000-05:00" endTime="2012-04-14T01:01:58.8906250-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="77134d17-6fc7-4ec8-bc95-ac0dc021a4ed">
+    </UnitTestResult>
+    <UnitTestResult executionId="c2d8eebf-a104-4519-af3a-362cdd7628ea" testId="12e46c41-ca5e-7203-7d91-9ceaeb8372fa" testName="setMementoTest" computerName="TINKU" duration="00:00:00.0021572" startTime="2012-04-14T01:01:58.9687500-05:00" endTime="2012-04-14T01:01:59.0000000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2d8eebf-a104-4519-af3a-362cdd7628ea">
+    </UnitTestResult>
+    <UnitTestResult executionId="aa4b9dd6-91c1-4128-add6-3016035eb4fa" testId="1c26784c-0ddc-a16d-f19b-71635342809d" testName="createInstanceTest" computerName="TINKU" duration="00:00:00.0017921" startTime="2012-04-14T01:01:59.0000000-05:00" endTime="2012-04-14T01:01:59.0312500-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa4b9dd6-91c1-4128-add6-3016035eb4fa">
+    </UnitTestResult>
+    <UnitTestResult executionId="c6f6872a-e72d-43ed-9cf6-e7c8513330ae" testId="1c2a7aa8-d386-c2d0-9766-9daf802d90ce" testName="StepTwoTest" computerName="TINKU" duration="00:00:00.0280993" startTime="2012-04-14T01:01:59.0312500-05:00" endTime="2012-04-14T01:01:59.0781250-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c6f6872a-e72d-43ed-9cf6-e7c8513330ae">
+    </UnitTestResult>
+    <UnitTestResult executionId="723800de-5ed6-49b7-a64c-755b9ea6704a" testId="2d11687b-1ea4-73dd-6e6b-e0329669a4d7" testName="CalculateStepThreeTest" computerName="TINKU" duration="00:00:27.4687500" startTime="2012-04-14T01:01:59.0937500-05:00" endTime="2012-04-14T01:02:26.5625000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="723800de-5ed6-49b7-a64c-755b9ea6704a">
+    </UnitTestResult>
+    <UnitTestResult executionId="9103dc34-96fa-4ba2-9c3c-38a6e5400e62" testId="30c1c89b-fac2-c77e-0b9b-67de1982205c" testName="ClearTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9103dc34-96fa-4ba2-9c3c-38a6e5400e62">
+    </UnitTestResult>
+    <UnitTestResult executionId="43198a9e-6278-45a3-a915-a88ddef824ee" testId="3813c055-0a11-519d-190b-213c39098af5" testName="IsOutofBoundsTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43198a9e-6278-45a3-a915-a88ddef824ee">
+    </UnitTestResult>
+    <UnitTestResult executionId="a6e2ceb8-310b-4cc6-8ee2-624add3582eb" testId="51821d50-7630-a087-53a5-edde42335604" testName="GetSymbolRectangleTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6e2ceb8-310b-4cc6-8ee2-624add3582eb">
+    </UnitTestResult>
+    <UnitTestResult executionId="8a94066b-96bd-46bc-b148-4b4a6123ac26" testId="536de9da-0066-a64b-878e-599932607ad3" testName="createInstanceTest1" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a94066b-96bd-46bc-b148-4b4a6123ac26">
+    </UnitTestResult>
+    <UnitTestResult executionId="18b00bc4-9552-4ac1-9050-27034eeed5dc" testId="54d8eaf3-c56c-184e-26b5-15196a90c1a8" testName="MakeMoveTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18b00bc4-9552-4ac1-9050-27034eeed5dc">
+    </UnitTestResult>
+    <UnitTestResult executionId="f13c7fc3-201e-4259-9ec3-96c2fc71be01" testId="60546481-3319-5dad-44b6-fd0b8b42e5c0" testName="CreatePointTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f13c7fc3-201e-4259-9ec3-96c2fc71be01">
+    </UnitTestResult>
+    <UnitTestResult executionId="e2f24761-41f5-40a4-88ff-de43ea6d5d6e" testId="66f2ebb5-d38a-d706-8eb7-c5bda61f50a6" testName="BoardSizeTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2f24761-41f5-40a4-88ff-de43ea6d5d6e">
+    </UnitTestResult>
+    <UnitTestResult executionId="7abff8e9-42bc-416f-a626-c6924ef5be72" testId="6ba15e95-f9ae-f088-948d-f72b9b631689" testName="SymbolStoreTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7abff8e9-42bc-416f-a626-c6924ef5be72">
+    </UnitTestResult>
+    <UnitTestResult executionId="f784f3a6-3666-408c-bb30-f7f2d9e3646c" testId="6daf65b4-05cc-b22b-0762-65fbf9673796" testName="ShowResultTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f784f3a6-3666-408c-bb30-f7f2d9e3646c">
+    </UnitTestResult>
+    <UnitTestResult executionId="9d6db801-875b-45bd-82a5-1878660e91d5" testId="724c9823-88d2-6bf0-4ae5-f63978fe9141" testName="CalculateStepTwoTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d6db801-875b-45bd-82a5-1878660e91d5">
+    </UnitTestResult>
+    <UnitTestResult executionId="e66f4fdd-b6e3-40d0-8c02-4fa2f8884cc4" testId="79703a38-2e82-a172-0e42-aaa3e7932553" testName="StepThreeTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e66f4fdd-b6e3-40d0-8c02-4fa2f8884cc4">
+    </UnitTestResult>
+    <UnitTestResult executionId="dd69995c-4735-4c0f-ba00-0b75cc889893" testId="7b0e2e66-8df2-4a1a-265f-d4dedb3fc894" testName="GetSymbolTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd69995c-4735-4c0f-ba00-0b75cc889893">
+    </UnitTestResult>
+    <UnitTestResult executionId="2e5a7675-0f35-48df-b68b-78a4fb3f1a98" testId="7c18b437-1eaf-293e-0176-96a9653c693e" testName="CalculateStepOneTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2e5a7675-0f35-48df-b68b-78a4fb3f1a98">
+    </UnitTestResult>
+    <UnitTestResult executionId="1e75e12a-24e8-49b3-93df-578e42bbba80" testId="7f6992cd-8434-1750-aa26-57ea7b9d67ea" testName="PutSymbolTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e75e12a-24e8-49b3-93df-578e42bbba80">
+    </UnitTestResult>
+    <UnitTestResult executionId="ff5f32d5-9648-41c5-88e3-620bfecaf909" testId="81e0d52c-2114-14fa-89f0-fbd51f644f03" testName="CheckResizeRequiredTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ff5f32d5-9648-41c5-88e3-620bfecaf909">
+    </UnitTestResult>
+    <UnitTestResult executionId="dae567cd-2c00-4755-8db1-2ac01b38e3e3" testId="883909f7-8fa2-cd70-a42d-9a76f83113b9" testName="GetCellRectangleTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dae567cd-2c00-4755-8db1-2ac01b38e3e3">
+    </UnitTestResult>
+    <UnitTestResult executionId="4c61c265-f0e6-4d91-81ad-6ebfcb6fe4ec" testId="9c0cb698-2881-3296-7c8a-debd20d6bb80" testName="CountCoinTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c61c265-f0e6-4d91-81ad-6ebfcb6fe4ec">
+    </UnitTestResult>
+    <UnitTestResult executionId="fdc4eacd-93c9-4ce8-8724-5ae467363dad" testId="acf14757-2e94-1174-a060-2307e62506fd" testName="GameViewConstructorTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fdc4eacd-93c9-4ce8-8724-5ae467363dad">
+    </UnitTestResult>
+    <UnitTestResult executionId="7872796a-9d67-4ce1-9bc4-9685d894d1be" testId="ad3ca581-932d-56e7-cd6a-26682ca3a236" testName="StepOneTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7872796a-9d67-4ce1-9bc4-9685d894d1be">
+    </UnitTestResult>
+    <UnitTestResult executionId="da6bb3ea-4131-4196-ae02-ad815bcc0f06" testId="b5975cca-4ea0-1de8-dc3c-80a1bc046cd5" testName="ShowInstructionTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da6bb3ea-4131-4196-ae02-ad815bcc0f06">
+    </UnitTestResult>
+    <UnitTestResult executionId="53d9a8c2-f99a-49f3-8373-fbd4586c9aa9" testId="b745a59d-2445-677f-5ced-c5ad13e91482" testName="CalculateStepOneTest1" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53d9a8c2-f99a-49f3-8373-fbd4586c9aa9">
+    </UnitTestResult>
+    <UnitTestResult executionId="f08ed2c0-3930-4e54-b9c6-2d2b185f2c99" testId="c388d02c-8193-cb8b-3690-847f35381077" testName="SelectBestMoveTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f08ed2c0-3930-4e54-b9c6-2d2b185f2c99">
+    </UnitTestResult>
+    <UnitTestResult executionId="3420b9e3-87c4-4a2f-84d0-c65202eb0e38" testId="cd0d94ae-8314-52a4-757d-febb6a6a6313" testName="GetUserSymbolTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3420b9e3-87c4-4a2f-84d0-c65202eb0e38">
+    </UnitTestResult>
+    <UnitTestResult executionId="e0941c32-a4ce-4a69-8685-c79c6bb5c7fa" testId="d79c2ed6-2d87-2c3a-76fd-bad033a309d1" testName="CreateMementoTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0941c32-a4ce-4a69-8685-c79c6bb5c7fa">
+    </UnitTestResult>
+    <UnitTestResult executionId="a1dde42e-6f95-494f-87eb-2efdb776e1c6" testId="dbe66929-699e-e618-e12c-3721ef274ba0" testName="BoardConstructorTest" computerName="TINKU" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1dde42e-6f95-494f-87eb-2efdb776e1c6">
+    </UnitTestResult>
+  </Results>
+</TestRun>
